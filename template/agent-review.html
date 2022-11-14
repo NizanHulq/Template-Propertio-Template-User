@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Realty - Real Estate Bootstrap 5 Template</title>
+	<!-- Meta Tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="Webestica.com">
+	<meta name="description" content="bootstrap 5 based real estate template">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="assets/images/favicon.ico">
+
+	<!-- Google Font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Serif+Text&display=swap" rel="stylesheet">
+
+	<!-- Plugins CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap-icons/bootstrap-icons.css">
+
+	<!-- Theme CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+<!-- **************** MAIN CONTENT START **************** -->
+<main>
+	<!-- Navbar top START -->
+	<div class="dashboard-topbar navbar-dark bg-dark px-3 px-sm-4 px-md-5">
+		<div class="d-flex justify-content-between align-items-center">
+			<!-- Logo -->
+			<a class="navbar-brand d-flex align-items-center py-2" href="index.html">
+				<img class="navbar-brand-item" src="assets/images/logo-light.svg" alt="logo">
+			</a>
+	
+			<!-- Navbar right -->
+			<ul class="list-inline m-0 text-primary-hover">
+				<!-- Search bar -->
+				<li class="d-none d-md-inline-block list-inline-item text-white me-3">
+					<form class="align-self-center position-relative" role="search" action="#">
+						<input type="text" class="form-control bg-secondary-soft text-white border-0" placeholder="Search here...">
+						<button type="submit" id="search-submit" class="btn position-absolute top-50 end-0 translate-middle-y"><i class="fa fa-search text-secondary"></i></button>
+					</form>
+				</li>
+				<!-- Icon -->
+				<li class="list-inline-item me-2 me-sm-3"> <a href="#" class="text-white"><i class="far fa-envelope"></i></a></li>
+				<li class="list-inline-item me-2 me-sm-3">
+					<a href="#" class="text-white position-relative">
+						<i class="far fa-bell"></i>
+						<span class="position-absolute top-0 start-100 translate-middle badge rounded-circle bg-danger p-1"><span class="visually-hidden">unread messages</span></span>
+					</a>
+				</li>
+				<!-- Dropdown avatar -->
+				<li class="list-inline-item">
+					<a href="#" class="btn-link" role="button" id="dropdownAvatar" data-bs-toggle="dropdown" aria-expanded="false">
+						<img class="box-sm rounded-circle" src="assets/images/avatar/2.jpg" alt="Profile picture">
+					</a>
+					<!-- dropdown list -->
+					<ul class="dropdown-menu min-w-auto" aria-labelledby="dropdownAvatar">
+						<li><a class="dropdown-item" href="#">Profile</a></li>
+						<li><a class="dropdown-item" href="#">Setting</a></li>
+						<li><a class="dropdown-item" href="#">My Wallet</a></li>
+						<li><a class="dropdown-item" href="#">Sign out</a></li>
+					</ul>
+				</li>
+				<!-- Toggle button -->
+				<li class="list-inline-item d-md-inline-block d-lg-none">
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dashboardNav" aria-controls="dashboardNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- Navbar top END -->
+	
+	<div class="container-fluid px-0">
+		<div class="page-wrapper">
+			<!-- Left sidebar START -->
+			<nav class="navbar navbar-expand-lg navbar-light bg-light px-3">
+				<div class="collapse navbar-collapse" id="dashboardNav">
+					<div class="dashboard-sidebar bg-light">
+						<div class="content mt-3">
+							<!-- Sidebar menu -->
+							<div class="list-group list-group-borderless p-3 p-md-4">
+								<p class="text-body mb-2">Main</p>
+									<a class="list-group-item hover-primary-soft" href="agent-dashboard.html"><i class="fas fa-fw fa-tachometer-alt me-2"></i>Dashboard</a>
+
+								<p class="text-body mt-3 mb-2">Manage Listing</p>
+									<a class="list-group-item hover-primary-soft" href="agent-add-property.html"><i class="bi fa-fw bi-bookmark-plus-fill me-2"></i>Add Property</a>
+									<a class="list-group-item hover-primary-soft" href="agent-property.html"><i class="fas fa-fw fa-home me-2"></i>My Property</a>
+									<a class="list-group-item hover-primary-soft" href="agent-favorite.html"><i class="fab fa-fw fa-gratipay me-2"></i>My Favorites</a>
+									<a class="list-group-item hover-primary-soft active" href="agent-review.html"><i class="far fa-fw fa-comment-dots me-2"></i>Review</a>
+
+								<p class="text-body mt-3 mb-2">Agency</p>
+									<a class="list-group-item hover-primary-soft" href="add-new-agent.html"><i class="fas fa-fw fa-user-plus me-2"></i>Add New Agent</a>
+									<a class="list-group-item hover-primary-soft" href="agency-agent-list.html"><i class="fas fa-fw fa-users me-2"></i>Agent List</a>
+									<a class="list-group-item hover-primary-soft" href="agent-message.html"><i class="fas fa-fw fa-envelope me-2"></i>Message</a>
+
+								<p class="text-body mt-3 mb-2">Manage Account</p>
+									<a class="list-group-item hover-primary-soft" href="agent-profile.html"><i class="fas fa-fw fa-user-alt me-2"></i>My Profile</a>
+									<a class="list-group-item hover-primary-soft" href="agent-package.html"><i class="fas fa-fw fa-boxes me-2"></i>My Packages</a>
+									<a class="list-group-item hover-primary-soft" href="agent-dashboard.html"><i class="fas fa-fw fa-sign-out-alt me-2"></i>Log Out</a>
+
+								<p class="text-body mt-3 mb-1">Agent of:</p>
+									<a class="list-group-item" href="#">
+										<img class=" " src="assets/images/agency/03.svg" alt="Profile picture">
+									</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>		
+			<!-- Left sidebar END -->
+	
+			<!-- Main content START -->
+			<div class="main-content">
+				<div class="row">
+					<div class="col-12">
+						<!-- Page title -->
+						<div class="my-5">
+							<h3>Reviews</h3>
+							<hr>
+						</div>
+						<div class="row">
+							<div class="col-12">
+								<!-- Review START -->
+								<div class="d-md-flex bg-secondary-soft rounded p-4 p-md-5 mb-4">
+									<!-- Avatar -->
+									<div>
+										<div class="avatar avatar-lg me-4">
+											<img class="avatar-img rounded-circle" src="assets/images/avatar/06.jpg" alt="avatar">
+										</div>
+									</div>
+									<!-- Text -->
+									<div>
+										<div class="d-sm-flex justify-content-sm-between mt-1 mt-md-0">
+											<h5 class="me-3 mb-1">Fani Georgieva</h5>
+											<!-- Review star -->
+											<ul class="list-inline mb-1 mb-sm-0">
+												<li class="list-inline-item me-0"><i class="fas fa-star text-warning"></i></li>
+												<li class="list-inline-item me-0"><i class="fas fa-star text-warning"></i></li>
+												<li class="list-inline-item me-0"><i class="fas fa-star text-warning"></i></li>
+												<li class="list-inline-item me-0"><i class="fas fa-star text-warning"></i></li>
+												<li class="list-inline-item me-0"><i class="fas fa-star"></i></li>
+												<li class="list-inline-item ms-0 ms-sm-1 text-primary-hover"><a href="#">(Store in Woodside, San Francisco)</a></li>
+											</ul>
+										</div>
+										<!-- Info -->
+										<p class="small mb-2">August 29 2019</p>
+										<p>Hello! I had the same problem, but I spoke to Customer Support about it, and they were able to help. Here's what you have to do. Go to your Settings tab. There, you'll see Membership Here's what you have to do. Go to your Settings tab. There, you'll see Membership.</p>
+
+										<!-- Reply button -->	
+										<button class="btn btn-sm btn-success-soft me-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+											<i class="far fa-fw fa-edit"></i>
+										</button>
+										<!-- Delete button -->
+										<button class="btn btn-sm btn-danger-soft" type="submit"><i class="far fa-fw fa-trash-alt"></i></button>
+									
+										<!-- Reply form -->
+										<div class="collapse" id="collapseExample">
+											<div class="card card-body bg-transparent mt-3 p-0">
+												<form class="row g-3">
+													<!-- Message box -->
+													<div class="col-12">
+														<label for="exampleFormControlTextarea1" class="form-label">Reply *</label>
+														<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+													</div>
+													<!-- Button -->
+													<div class="col-12">
+														<button type="submit" class="btn btn-primary">Submit</button>
+													</div>
+												</form> <!-- Form END -->
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Review END -->
+
+								<!-- Review START -->
+								<div class=" bg-secondary-soft rounded p-4 p-md-5 mb-4">
+									<div class="d-md-flex">
+										<!-- Avatar -->
+										<div>
+											<div class="avatar avatar-lg me-4">
+												<img class="avatar-img rounded-circle" src="assets/images/avatar/1.jpg" alt="avatar">
+											</div>
+										</div>
+										<!-- Text -->
+										<div>
+											<div class="d-sm-flex justify-content-sm-between mt-1 mt-md-0">
+												<h5 class="me-3 mb-1">Dennis Barrett</h5>
+												<!-- Review star -->
+												<ul class="list-inline mb-1 mb-sm-0">
+													<li class="list-inline-item me-0"><i class="fas fa-star text-warning"></i></li>
+													<li class="list-inline-item me-0"><i class="fas fa-star text-warning"></i></li>
+													<li class="list-inline-item me-0"><i class="fas fa-star text-warning"></i></li>
+													<li class="list-inline-item me-0"><i class="fas fa-star text-warning"></i></li>
+													<li class="list-inline-item me-0"><i class="fas fa-star"></i></li>
+													<li class="list-inline-item ms-0 ms-sm-1 text-primary-hover"><a href="#">(Store in Woodside, San Francisco)</a></li>
+												</ul>
+											</div>
+											<!-- Info -->
+											<p class="small mb-2">July 8 2020</p>
+											<p>Hello! I had the same problem, but I spoke to Customer Support about it, and they were able to help. Here's what you have to do. Go to your Settings tab. There, you'll see Membership Here's what you have to do. Go to your Settings tab. There, you'll see Membership.</p>
+											<!-- Button -->
+											<button class="btn btn-sm btn-success-soft me-2" type="submit"><i class="far fa-fw fa-edit"></i></button>
+											<button class="btn btn-sm btn-danger-soft" type="submit"><i class="far fa-fw fa-trash-alt"></i></button>
+										</div>
+									</div>
+
+									<!-- Reply -->
+									<div class="d-md-flex mt-5 ps-3 ps-sm-5">
+										<!-- Avatar -->
+										<div>
+											<div class="avatar avatar-lg me-4">
+												<img class="avatar-img rounded-circle" src="assets/images/avatar/2.jpg" alt="avatar">
+											</div>
+										</div>
+										<!-- Text -->
+										<div>
+											<div class="mt-1 mt-md-0">
+												<h5 class="me-3 mb-1">Scarlet Doe</h5>
+											</div>
+											<!-- Info -->
+											<p class="small mb-2">July 12 2020</p>
+											<p>Hello! I had the same problem, but I spoke to Customer Support about it, and they were able to help.</p>
+											<!-- Button -->
+											<button class="btn btn-sm btn-danger-soft" type="submit"><i class="far fa-fw fa-trash-alt"></i></button>
+										</div>
+									</div>
+								</div>
+								<!-- Review END -->
+
+								<!-- Review START -->
+								<div class="d-md-flex bg-secondary-soft rounded p-4 p-md-5 mb-4">
+									<!-- Avatar -->
+									<div>
+										<div class="avatar avatar-lg me-4">
+											<img class="avatar-img rounded-circle" src="assets/images/avatar/4.jpg" alt="avatar">
+										</div>
+									</div>
+									<!-- Text -->
+									<div>
+										<div class="d-sm-flex justify-content-sm-between mt-1 mt-md-0">
+											<h5 class="me-3 mb-1">Carolyn Ortiz</h5>
+											<!-- Review star -->
+											<ul class="list-inline mb-1 mb-sm-0">
+												<li class="list-inline-item me-0"><i class="fas fa-star text-warning"></i></li>
+												<li class="list-inline-item me-0"><i class="fas fa-star text-warning"></i></li>
+												<li class="list-inline-item me-0"><i class="fas fa-star text-warning"></i></li>
+												<li class="list-inline-item me-0"><i class="fas fa-star"></i></li>
+												<li class="list-inline-item me-0"><i class="fas fa-star"></i></li>
+												<li class="list-inline-item ms-0 ms-sm-1 text-primary-hover"><a href="#">(Single House Near New York)</a></li>
+											</ul>
+										</div>
+										<!-- Info -->
+										<p class="small mb-2">January 22 2021</p>
+										<p>Hello! I had the same problem, but I spoke to Customer Support about it, and they were able to help. Here's what you have to do. Go to your Settings tab. There, you'll see Membership Here's what you have to do. Go to your Settings tab. There, you'll see Membership.</p>
+									
+										<!-- Reply button -->	
+										<button class="btn btn-sm btn-success-soft me-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
+											<i class="far fa-fw fa-edit"></i>
+										</button>
+										<!-- Delete button -->
+										<button class="btn btn-sm btn-danger-soft" type="submit"><i class="far fa-fw fa-trash-alt"></i></button>
+
+										<!-- Reply form -->
+										<div class="collapse" id="collapseExample2">
+											<div class="card card-body bg-transparent mt-3 p-0">
+												<form class="row g-3">
+													<!-- Message box -->
+													<div class="col-12">
+														<label for="exampleFormControlTextarea2" class="form-label">Reply *</label>
+														<textarea class="form-control" id="exampleFormControlTextarea2" rows="3"></textarea>
+													</div>
+													<!-- Button -->
+													<div class="col-12">
+														<button type="submit" class="btn btn-primary">Submit</button>
+													</div>
+												</form> <!-- Form END -->
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Review END -->
+							</div>
+						</div> <!-- Row END -->
+					</div>
+				</div>
+			</div>
+			<!-- Main content END -->
+		</div>
+	</div>
+</main>
+<!-- **************** MAIN CONTENT END **************** -->
+
+<!-- Back to top -->
+<div class="back-top"><i class="bi bi-arrow-up-short position-absolute top-50 start-50 translate-middle"></i></div>
+<!-- Back to top -->
+
+<!-- =======================
+JS libraries, plugins and custom scripts -->
+
+<!-- Bootstrap JS -->
+<script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Template Functions -->
+<script src="assets/js/functions.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Realty - Real Estate Bootstrap 5 Template</title>
+	<!-- Meta Tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="Webestica.com">
+	<meta name="description" content="bootstrap 5 based real estate template">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="assets/images/favicon.ico">
+
+	<!-- Google Font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Serif+Text&display=swap" rel="stylesheet">
+
+	<!-- Plugins CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap-icons/bootstrap-icons.css">
+	
+	<!-- Theme CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+<!-- **************** MAIN CONTENT START **************** -->
+<main>
+	<!-- Navbar top START -->
+	<div class="dashboard-topbar navbar-dark bg-dark px-3 px-sm-4 px-md-5">
+		<div class="d-flex justify-content-between align-items-center">
+			<!-- Logo -->
+			<a class="navbar-brand d-flex align-items-center py-2" href="index.html">
+				<img class="navbar-brand-item" src="assets/images/logo-light.svg" alt="logo">
+			</a>
+	
+			<!-- Navbar right -->
+			<ul class="list-inline m-0 text-primary-hover">
+				<!-- Search bar -->
+				<li class="d-none d-md-inline-block list-inline-item text-white me-3">
+					<form class="align-self-center position-relative" role="search" action="#">
+						<input type="text" class="form-control bg-secondary-soft text-white border-0" placeholder="Search here...">
+						<button type="submit" id="search-submit" class="btn position-absolute top-50 end-0 translate-middle-y"><i class="fa fa-search text-secondary"></i></button>
+					</form>
+				</li>
+				<!-- Icon -->
+				<li class="list-inline-item me-2 me-sm-3"> <a href="#" class="text-white"><i class="far fa-envelope"></i></a></li>
+				<li class="list-inline-item me-2 me-sm-3">
+					<a href="#" class="text-white position-relative">
+						<i class="far fa-bell"></i>
+						<span class="position-absolute top-0 start-100 translate-middle badge rounded-circle bg-danger p-1"><span class="visually-hidden">unread messages</span></span>
+					</a>
+				</li>
+				<!-- Dropdown avatar -->
+				<li class="list-inline-item">
+					<a href="#" class="btn-link" role="button" id="dropdownAvatar" data-bs-toggle="dropdown" aria-expanded="false">
+						<img class="box-sm rounded-circle" src="assets/images/avatar/2.jpg" alt="Profile picture">
+					</a>
+					<!-- dropdown list -->
+					<ul class="dropdown-menu min-w-auto" aria-labelledby="dropdownAvatar">
+						<li><a class="dropdown-item" href="#">Profile</a></li>
+						<li><a class="dropdown-item" href="#">Setting</a></li>
+						<li><a class="dropdown-item" href="#">My Wallet</a></li>
+						<li><a class="dropdown-item" href="#">Sign out</a></li>
+					</ul>
+				</li>
+				<!-- Toggle button -->
+				<li class="list-inline-item d-md-inline-block d-lg-none">
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dashboardNav" aria-controls="dashboardNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- Navbar top END -->
+	
+	<div class="container-fluid px-0">
+		<div class="page-wrapper">
+			<!-- Left sidebar START -->
+			<nav class="navbar navbar-expand-lg navbar-light bg-light px-3">
+				<div class="collapse navbar-collapse" id="dashboardNav">
+					<div class="dashboard-sidebar bg-light">
+						<div class="content mt-3">
+							<!-- Sidebar menu -->
+							<div class="list-group list-group-borderless p-3 p-md-4">
+								<p class="text-body mb-2">Main</p>
+									<a class="list-group-item hover-primary-soft" href="agent-dashboard.html"><i class="fas fa-fw fa-tachometer-alt me-2"></i>Dashboard</a>
+
+								<p class="text-body mt-3 mb-2">Manage Listing</p>
+									<a class="list-group-item hover-primary-soft" href="agent-add-property.html"><i class="bi fa-fw bi-bookmark-plus-fill me-2"></i>Add Property</a>
+									<a class="list-group-item hover-primary-soft" href="agent-property.html"><i class="fas fa-fw fa-home me-2"></i>My Property</a>
+									<a class="list-group-item hover-primary-soft" href="agent-favorite.html"><i class="fab fa-fw fa-gratipay me-2"></i>My Favorites</a>
+									<a class="list-group-item hover-primary-soft" href="agent-review.html"><i class="far fa-fw fa-comment-dots me-2"></i>Review</a>
+
+								<p class="text-body mt-3 mb-2">Agency</p>
+									<a class="list-group-item hover-primary-soft" href="add-new-agent.html"><i class="fas fa-fw fa-user-plus me-2"></i>Add New Agent</a>
+									<a class="list-group-item hover-primary-soft" href="agency-agent-list.html"><i class="fas fa-fw fa-users me-2"></i>Agent List</a>
+									<a class="list-group-item hover-primary-soft active" href="agent-message.html"><i class="fas fa-fw fa-envelope me-2"></i>Message</a>
+
+								<p class="text-body mt-3 mb-2">Manage Account</p>
+									<a class="list-group-item hover-primary-soft" href="agent-profile.html"><i class="fas fa-fw fa-user-alt me-2"></i>My Profile</a>
+									<a class="list-group-item hover-primary-soft" href="agent-package.html"><i class="fas fa-fw fa-boxes me-2"></i>My Packages</a>
+									<a class="list-group-item hover-primary-soft" href="agent-dashboard.html"><i class="fas fa-fw fa-sign-out-alt me-2"></i>Log Out</a>
+
+								<p class="text-body mt-3 mb-1">Agent of:</p>
+									<a class="list-group-item" href="#">
+										<img class=" " src="assets/images/agency/03.svg" alt="Profile picture">
+									</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>		
+			<!-- Left sidebar END -->
+		
+			<!-- Main content START -->
+			<div class="main-content">
+				<div class="row">
+					<div class="col-12">
+						<!-- Page title -->
+						<div class="my-5">
+							<h3>Message</h3>
+							<hr>
+						</div>
+						<div class="row">
+							<div class="col-12">
+								<div class="row">
+									<!-- Left side START -->
+									<div class="col-4 border">
+										<div class="d-flex justify-content-between align-items-center my-3">
+											<!-- Avatar -->
+											<div class="avatar avatar-md">
+												<img class="avatar-img rounded-circle" src="assets/images/avatar/4.jpg" alt="avatar">
+												<!--Active dots  -->
+												<span class="active-dot"></span>
+											</div>
+											<!-- Icon -->
+											<div class="ms-3">
+												<ul class="list-inline text-primary-hover">
+													<li class="list-inline-item me-2"><a href="#" class="text-secondary small"><i class="fas fa-fw fa-comment-alt"></i></a></li>
+													<li class="list-inline-item me-0"><a href="#" class="text-secondary small"><i class="fas fa-fw fa-ellipsis-v"></i></a></li>
+												</ul>
+											</div>
+										</div>
+										<hr>
+										<!-- Search bar -->
+										<form class="align-self-center position-relative py-1" role="search" action="#">
+											<input type="text" class="form-control bg-secondary-soft text-dark border" placeholder="Search here...">
+											<button type="submit" id="search-submit1" class="btn position-absolute top-50 end-0 translate-middle-y"><i class="fa fa-search text-secondary"></i></button>
+										</form>
+										<!-- Content -->
+										<div class="nav flex-column p-2	" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+											<!-- Chat -->
+											<a class="nav-link active py-3" id="v-pills-chat-tab-1" data-bs-toggle="pill" href="#v-pills-chat-1" role="tab" aria-controls="v-pills-chat-1" aria-selected="true">
+												<!-- Info -->
+												<div class="row align-items-center">
+													<div class="col-xxl-8">
+														<div class="d-md-flex align-items-center">
+															<!-- Avatar -->
+															<div class="d-none d-md-block">
+																<div  class="avatar avatar-md">
+																	<img class="avatar-img rounded-circle" src="assets/images/avatar/3.jpg" alt="avatar">
+																	<!--Active dots  -->
+																	<span class="active-dot"></span>
+																</div>
+															</div>
+															<!-- Title -->
+															<div class="ms-3">
+																<h6 class="mb-0">Scarlet Doe</h6>
+																<p class="text-body mb-0 small">Typing....</p>
+															</div>
+														</div>
+													</div>
+													<!-- Time -->
+													<div class="col-4 text-end d-none d-xxl-block">
+														<span class="text-body mb-0 small text-end">2.00 am</span>
+													</div>
+												</div>
+											</a> <hr class="m-0">
+
+											<!-- Chat -->
+											<a class="nav-link py-3" id="v-pills-chat-tab-2" data-bs-toggle="pill" href="#v-pills-chat-2" role="tab" aria-controls="v-pills-chat-2" aria-selected="false">
+												<!-- Info -->
+												<div class="row align-items-center">
+													<div class="col-xxl-8">
+														<div class="d-flex align-items-center">
+															<!-- Avatar -->
+															<div class="d-none d-md-block">
+																<div class="avatar avatar-md">
+																	<img class="avatar-img rounded-circle" src="assets/images/avatar/1.jpg" alt="avatar">
+																</div>
+															</div>
+															<!-- Title -->
+															<div class="ms-3">
+																<h6 class="mb-0">Louis Crawford</h6>
+																<p class="text-body mb-0 small">Are you there?</p>
+															</div>
+														</div>
+													</div>
+													<!-- Time -->
+													<div class="col-4 text-end d-none d-xxl-block">
+														<span class="text-body mb-0 small text-end">3.00 pm</span>
+													</div>
+												</div>
+											</a> <hr class="m-0">
+
+											<!-- Chat -->
+											<a class="nav-link py-3" id="v-pills-chat-tab-3" data-bs-toggle="pill" href="#v-pills-chat-3" role="tab" aria-controls="v-pills-chat-3" aria-selected="false">
+												<!-- Info -->
+												<div class="row align-items-center">
+													<div class="col-xxl-8">
+														<div class="d-flex align-items-center">
+															<!-- Avatar -->
+															<div class="d-none d-md-block">
+																<div class="avatar avatar-md">
+																	<img class="avatar-img rounded-circle" src="assets/images/avatar/06.jpg" alt="avatar">
+																	<!--Active dots  -->
+																	<span class="active-dot"></span>
+																</div>	
+															</div>
+															<!-- Title -->
+															<div class="ms-3">
+																<h6 class="mb-0">Judy Nguyen</h6>
+																<p class="text-body mb-0 small">Are you finish the...</p>
+															</div>
+														</div>
+													</div>
+													<!-- Time -->
+													<div class="col-4 align-items-end flex-column d-none d-xxl-flex">
+														<span class="text-body mb-0 small">2.00 am</span>
+														<p class="badge bg-success rounded-circle text-white mb-0">2</p>
+													</div>
+												</div>
+											</a> <hr class="m-0">
+
+											<!-- Chat -->
+											<a class="nav-link py-3" id="v-pills-chat-tab-4" data-bs-toggle="pill" href="#v-pills-chat-4" role="tab" aria-controls="v-pills-chat-4" aria-selected="false">
+												<!-- Info -->
+												<div class="row align-items-center">
+													<div class="col-xxl-8">
+														<div class="d-flex align-items-center">
+															<!-- Avatar -->
+															<div class="d-none d-md-block">
+																<div class="avatar avatar-md">
+																	<img class="avatar-img rounded-circle" src="assets/images/avatar/2.jpg" alt="avatar">
+																</div>
+															</div>
+															<!-- Title -->
+															<div class="ms-3">
+																<h6 class="mb-0">Lori Stevens</h6>
+																<p class="text-body mb-0 small">Are you finish the...</p>
+															</div>
+														</div>
+													</div>
+													<!-- Time -->
+													<div class="col-4 text-end d-none d-xxl-block">
+														<span class="text-body mb-0 small text-end">3.00 pm</span>
+													</div>
+												</div>
+											</a> 
+										</div>
+									</div>
+									<!-- Left side END -->
+
+									<!-- Right side START -->
+									<div class="col-8 border border-start-0 bg-white">
+										<div class="tab-content p-4" id="v-pills-tabContent-2">
+											<!-- Chat detail -->
+											<div class="tab-pane fade show active" id="v-pills-chat-1" role="tabpanel" aria-labelledby="v-pills-chat-tab-1">
+												<!-- Info -->
+												<div class="row align-items-center">
+													<div class="col-md-6">
+														<div class="d-flex align-items-center">
+															<!-- Avatar -->
+															<div class="avatar avatar-md">
+																<img class="avatar-img rounded-circle" src="assets/images/avatar/3.jpg" alt="avatar">
+																<!--Active dots  -->
+																<span class="active-dot"></span>
+															</div>
+															<!-- Title -->
+															<div class="d-flex justify-content-between align-items-center">
+																<div class="ms-3">
+																	<h6 class="mb-0">Scarlet Doe</h6>
+																	<p class="text-body mb-0 small">Typing....</p>
+																</div>
+															</div>
+														</div>
+													</div>
+													<!-- Icon -->
+													<div class="col-md-6 text-end d-none d-md-block">
+														<div class="ms-3">
+															<ul class="list-inline text-primary-hover">
+																<li class="list-inline-item me-3 small"><a href="#" class="text-dark"><i class="fas fa-fw fa-phone-alt"></i></a></li>
+																<li class="list-inline-item me-3 small"><a href="#" class="text-dark"><i class="fas fa-fw fa-video"></i></a></li>
+																<li class="list-inline-item me-3 small"><a href="#" class="text-dark"><i class="far fa-fw fa-star"></i></a></li>
+																<li class="list-inline-item me-3 small"><a href="#" class="text-dark"><i class="fas fa-fw fa-user-plus"></i></a></li>
+																<li class="list-inline-item me-3 small"><a href="#" class="text-dark"><i class="fas fa-fw fa-ellipsis-v"></i></a></li>
+															</ul>
+														</div>
+													</div>
+												</div>
+												<hr class="mb-5">
+												<!-- Message -->
+												<div>
+													<p><span class="bg-primary text-white py-2 px-4 rounded-1 mb-0 d-inline-block">How are you?</span></p>
+													<p><span class="bg-primary text-white py-2 px-4 rounded-1 mb-0 d-inline-block">It’s Great opportunity to work.</span></p>
+													<p><span>8:00 am</span></p>
+												</div>
+												<div class="text-end">
+													<p><span class="bg-dark-soft text-dark py-2 px-4 rounded-1 mb-0 d-inline-block">I am fine</span></p>
+													<p><span class="bg-dark-soft text-dark py-2 px-4 rounded-1 mb-0 d-inline-block">Thank you, good to here </span></p>
+													<p><span>8:15 am</span></p>
+												</div>
+												<div>
+													<p><span class="bg-primary text-white py-2 px-4 rounded-1 mb-0 d-inline-block">How are you?</span></p>
+													<p><span class="bg-primary text-white py-2 px-4 rounded-1 mb-0 d-inline-block">It’s Great opportunity to work.</span></p>
+													<p><span>8:00 am</span></p>
+												</div>
+												<div class="text-end">
+													<p><span class="bg-dark-soft text-dark py-2 px-4 rounded-1 mb-0 d-inline-block">I am fine</span></p>
+													<p><span class="bg-dark-soft text-dark py-2 px-4 rounded-1 mb-0 d-inline-block">Thank you, good to here </span></p>
+													<p><span>8:15 am</span></p>
+												</div>
+												<!-- Type message -->
+												<form class="input-group">
+													<input class="form-control bg-secondary-soft text-dark border" placeholder="Type a message">
+													<button type="submit" class="btn btn-primary position-absolute top-50 end-0 translate-middle-y"><i class="fas fa-paper-plane"></i></button>
+												</form>
+											</div>
+
+											<!-- Chat detail -->
+											<div class="tab-pane fade" id="v-pills-chat-2" role="tabpanel" aria-labelledby="v-pills-chat-tab-2">
+												<!-- Info -->
+												<div class="row align-items-center">
+													<div class="col-6">
+														<div class="d-flex align-items-center">
+															<!-- Avatar -->
+															<div class="avatar avatar-md">
+																<img class="avatar-img rounded-circle" src="assets/images/avatar/1.jpg" alt="avatar">
+															</div>
+															<!-- Title -->
+															<div class="d-flex justify-content-between align-items-center">
+																<div class="ms-3">
+																	<h6 class="mb-0">Louis Crawford</h6>
+																	<p class="text-body mb-0 small">Last seen 2:30pm</p>
+																</div>
+															</div>
+														</div>
+													</div>
+													<!-- Icon -->
+													<div class="col-6 text-end">
+														<div class="ms-3">
+															<ul class="list-inline text-primary-hover">
+																<li class="list-inline-item me-3 small"><a href="#" class="text-dark"><i class="fas fa-fw fa-phone-alt"></i></a></li>
+																<li class="list-inline-item me-3 small"><a href="#" class="text-dark"><i class="fas fa-fw fa-video"></i></a></li>
+																<li class="list-inline-item me-3 small"><a href="#" class="text-dark"><i class="far fa-fw fa-star"></i></a></li>
+																<li class="list-inline-item me-3 small"><a href="#" class="text-dark"><i class="fas fa-fw fa-user-plus"></i></a></li>
+																<li class="list-inline-item me-3 small"><a href="#" class="text-dark"><i class="fas fa-fw fa-ellipsis-v"></i></a></li>
+															</ul>
+														</div>
+													</div>
+												</div>
+												<hr class="mb-5">
+												<!-- Message -->
+												<div>
+													<p><span class="bg-primary text-white py-2 px-4 rounded-1 mb-0 d-inline-block">How are you?</span></p>
+													<p><span class="bg-primary text-white py-2 px-4 rounded-1 mb-0 d-inline-block">It’s Great opportunity to work.</span></p>
+													<p><span>8:00 am</span></p>
+												</div>
+												<div class="text-end">
+													<p><span class="bg-dark-soft text-dark py-2 px-4 rounded-1 mb-0 d-inline-block">I am fine</span></p>
+													<p><span class="bg-dark-soft text-dark py-2 px-4 rounded-1 mb-0 d-inline-block">Thank you, good to here </span></p>
+													<p><span>8:15 am</span></p>
+												</div>
+												<div>
+													<p><span class="bg-primary text-white py-2 px-4 rounded-1 mb-0 d-inline-block">How are you?</span></p>
+													<p><span class="bg-primary text-white py-2 px-4 rounded-1 mb-0 d-inline-block">It’s Great opportunity to work.</span></p>
+													<p><span>8:00 am</span></p>
+												</div>
+												<div class="text-end">
+													<p><span class="bg-dark-soft text-dark py-2 px-4 rounded-1 mb-0 d-inline-block">I am fine</span></p>
+													<p><span class="bg-dark-soft text-dark py-2 px-4 rounded-1 mb-0 d-inline-block">Thank you, good to here </span></p>
+													<p><span>8:15 am</span></p>
+												</div>
+												<!-- Type message -->
+												<form class="input-group">
+													<input class="form-control bg-secondary-soft text-dark border" placeholder="Type a message">
+													<button type="submit" class="btn btn-primary position-absolute top-50 end-0 translate-middle-y"><i class="fas fa-paper-plane"></i></button>
+												</form>
+											</div>
+
+											<!-- Chat detail -->
+											<div class="tab-pane fade" id="v-pills-chat-3" role="tabpanel" aria-labelledby="v-pills-chat-tab-3">
+												<!-- Info -->
+												<div class="row align-items-center">
+													<div class="col-6">
+														<div class="d-flex align-items-center">
+															<!-- Avatar -->
+															<div class="avatar avatar-md">
+																<img class="avatar-img rounded-circle" src="assets/images/avatar/06.jpg" alt="avatar">
+																<!--Active dots  -->
+																<span class="active-dot bg-success position-absolute bottom-0 end-0"></span>
+															</div>
+															<!-- Title -->
+															<div class="d-flex justify-content-between align-items-center">
+																<div class="ms-3">
+																	<h6 class="mb-0">Judy Nguyen</h6>
+																	<p class="text-body mb-0 small">online</p>
+																</div>
+															</div>
+														</div>
+													</div>
+													<!-- Icon -->
+													<div class="col-6 text-end">
+														<div class="ms-3">
+															<ul class="list-inline text-primary-hover">
+																<li class="list-inline-item me-3 small"><a href="#" class="text-dark"><i class="fas fa-fw fa-phone-alt"></i></a></li>
+																<li class="list-inline-item me-3 small"><a href="#" class="text-dark"><i class="fas fa-fw fa-video"></i></a></li>
+																<li class="list-inline-item me-3 small"><a href="#" class="text-dark"><i class="far fa-fw fa-star"></i></a></li>
+																<li class="list-inline-item me-3 small"><a href="#" class="text-dark"><i class="fas fa-fw fa-user-plus"></i></a></li>
+																<li class="list-inline-item me-3 small"><a href="#" class="text-dark"><i class="fas fa-fw fa-ellipsis-v"></i></a></li>
+															</ul>
+														</div>
+													</div>
+												</div>
+												<hr class="mb-5">
+												<!-- Message -->
+												<div>
+													<p><span class="bg-primary text-white py-2 px-4 rounded-1 mb-0 d-inline-block">How are you?</span></p>
+													<p><span class="bg-primary text-white py-2 px-4 rounded-1 mb-0 d-inline-block">It’s Great opportunity to work.</span></p>
+													<p><span>8:00 am</span></p>
+												</div>
+												<div class="text-end">
+													<p><span class="bg-dark-soft text-dark py-2 px-4 rounded-1 mb-0 d-inline-block">I am fine</span></p>
+													<p><span class="bg-dark-soft text-dark py-2 px-4 rounded-1 mb-0 d-inline-block">Thank you, good to here </span></p>
+													<p><span>8:15 am</span></p>
+												</div>
+												<div>
+													<p><span class="bg-primary text-white py-2 px-4 rounded-1 mb-0 d-inline-block">How are you?</span></p>
+													<p><span class="bg-primary text-white py-2 px-4 rounded-1 mb-0 d-inline-block">It’s Great opportunity to work.</span></p>
+													<p><span>8:00 am</span></p>
+												</div>
+												<div class="text-end">
+													<p><span class="bg-dark-soft text-dark py-2 px-4 rounded-1 mb-0 d-inline-block">I am fine</span></p>
+													<p><span class="bg-dark-soft text-dark py-2 px-4 rounded-1 mb-0 d-inline-block">Thank you, good to here </span></p>
+													<p><span>8:15 am</span></p>
+												</div>
+												<!-- Type message -->
+												<form class="input-group">
+													<input class="form-control bg-secondary-soft text-dark border" placeholder="Type a message">
+													<button type="submit" class="btn btn-primary position-absolute top-50 end-0 translate-middle-y"><i class="fas fa-paper-plane"></i></button>
+												</form>
+											</div>
+
+											<!-- Chat detail -->
+											<div class="tab-pane fade" id="v-pills-chat-4" role="tabpanel" aria-labelledby="v-pills-chat-tab-4">
+												<!-- Info -->
+												<div class="row align-items-center">
+													<div class="col-6">
+														<div class="d-flex align-items-center">
+															<!-- Avatar -->
+															<div class="avatar avatar-md">
+																<img class="avatar-img rounded-circle" src="assets/images/avatar/2.jpg" alt="avatar">
+															</div>
+															<!-- Title -->
+															<div class="d-flex justify-content-between align-items-center">
+																<div class="ms-3">
+																	<h6 class="mb-0">Lori Stevens</h6>
+																	<p class="text-body mb-0 small">Last seen 5:30pm</p>
+																</div>
+															</div>
+														</div>
+													</div>
+													<!-- Icon -->
+													<div class="col-6 text-end">
+														<div class="ms-3">
+															<ul class="list-inline text-primary-hover">
+																<li class="list-inline-item me-3 small"><a href="#" class="text-dark"><i class="fas fa-fw fa-phone-alt"></i></a></li>
+																<li class="list-inline-item me-3 small"><a href="#" class="text-dark"><i class="fas fa-fw fa-video"></i></a></li>
+																<li class="list-inline-item me-3 small"><a href="#" class="text-dark"><i class="far fa-fw fa-star"></i></a></li>
+																<li class="list-inline-item me-3 small"><a href="#" class="text-dark"><i class="fas fa-fw fa-user-plus"></i></a></li>
+																<li class="list-inline-item me-3 small"><a href="#" class="text-dark"><i class="fas fa-fw fa-ellipsis-v"></i></a></li>
+															</ul>
+														</div>
+													</div>
+												</div>
+												<hr class="mb-5">
+												<!-- Message -->
+												<div>
+													<p><span class="bg-primary text-white py-2 px-4 rounded-1 mb-0 d-inline-block">How are you?</span></p>
+													<p><span class="bg-primary text-white py-2 px-4 rounded-1 mb-0 d-inline-block">It’s great opportunity to work.</span></p>
+													<p><span>8:00 am</span></p>
+												</div>
+												<div class="text-end">
+													<p><span class="bg-dark-soft text-dark py-2 px-4 rounded-1 mb-0 d-inline-block">I am fine</span></p>
+													<p><span class="bg-dark-soft text-dark py-2 px-4 rounded-1 mb-0 d-inline-block">Thank you, good to here </span></p>
+													<p><span>8:15 am</span></p>
+												</div>
+												<div>
+													<p><span class="bg-primary text-white py-2 px-4 rounded-1 mb-0 d-inline-block">How are you?</span></p>
+													<p><span class="bg-primary text-white py-2 px-4 rounded-1 mb-0 d-inline-block">It’s great  opportunity to work.</span></p>
+													<p><span>8:00 am</span></p>
+												</div>
+												<div class="text-end">
+													<p><span class="bg-dark-soft text-dark py-2 px-4 rounded-1 mb-0 d-inline-block">I am fine</span></p>
+													<p><span class="bg-dark-soft text-dark py-2 px-4 rounded-1 mb-0 d-inline-block">Thank you, good to here </span></p>
+													<p><span>8:15 am</span></p>
+												</div>
+												<!-- Type message -->
+												<form class="input-group">
+													<input class="form-control bg-secondary-soft text-dark border" placeholder="Type a message">
+													<button type="submit" class="btn btn-primary position-absolute top-50 end-0 translate-middle-y"><i class="fas fa-paper-plane"></i></button>
+												</form>
+											</div>
+										</div>
+									</div>
+									<!-- Right side END -->
+								</div> <!-- Row END -->	
+							</div>
+						</div> <!-- Row END -->
+					</div>
+				</div> <!-- Row END -->
+			</div>
+			<!-- Main content END -->
+		</div>
+	</div>
+</main>
+<!-- **************** MAIN CONTENT END **************** -->
+
+<!-- Back to top -->
+<div class="back-top"><i class="bi bi-arrow-up-short position-absolute top-50 start-50 translate-middle"></i></div>
+<!-- Back to top -->
+
+<!-- =======================
+JS libraries, plugins and custom scripts -->
+
+<!-- Bootstrap JS -->
+<script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Template Functions -->
+<script src="assets/js/functions.js"></script>
+
+</body>
+</html>

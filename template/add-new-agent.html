@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Realty - Real Estate Bootstrap 5 Template</title>
+	<!-- Meta Tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="Webestica.com">
+	<meta name="description" content="bootstrap 5 based real estate template">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="assets/images/favicon.ico">
+
+	<!-- Google Font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Serif+Text&display=swap" rel="stylesheet">
+
+	<!-- Plugins CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap-icons/bootstrap-icons.css">
+	
+	<!-- Theme CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+<!-- **************** MAIN CONTENT START **************** -->
+<main>
+	<!-- Navbar top START -->
+	<div class="dashboard-topbar navbar-dark bg-dark px-3 px-sm-4 px-md-5">
+		<div class="d-flex justify-content-between align-items-center">
+			<!-- Logo -->
+			<a class="navbar-brand d-flex align-items-center py-2" href="index.html">
+				<img class="navbar-brand-item" src="assets/images/logo-light.svg" alt="logo">
+			</a>
+	
+			<!-- Navbar right -->
+			<ul class="list-inline m-0 text-primary-hover">
+				<!-- Search bar -->
+				<li class="d-none d-md-inline-block list-inline-item text-white me-3">
+					<form class="align-self-center position-relative" role="search" action="#">
+						<input type="text" class="form-control bg-secondary-soft text-white border-0" placeholder="Search here...">
+						<button type="submit" id="search-submit" class="btn position-absolute top-50 end-0 translate-middle-y"><i class="fa fa-search text-secondary"></i></button>
+					</form>
+				</li>
+				<!-- Icon -->
+				<li class="list-inline-item me-2 me-sm-3"> <a href="#" class="text-white"><i class="far fa-envelope"></i></a></li>
+				<li class="list-inline-item me-2 me-sm-3">
+					<a href="#" class="text-white position-relative">
+						<i class="far fa-bell"></i>
+						<span class="position-absolute top-0 start-100 translate-middle badge rounded-circle bg-danger p-1">
+							<span class="visually-hidden">unread messages</span>
+						</span>
+					</a>
+				</li>
+				<!-- Dropdown avatar -->
+				<li class="list-inline-item">
+					<a href="#" class="btn-link" role="button" id="dropdownAvatar" data-bs-toggle="dropdown" aria-expanded="false">
+						<img class="box-sm rounded-circle" src="assets/images/avatar/2.jpg" alt="Profile picture">
+					</a>
+					<!-- Dropdown list -->
+					<ul class="dropdown-menu min-w-auto" aria-labelledby="dropdownAvatar">
+						<li><a class="dropdown-item" href="#">Profile</a></li>
+						<li><a class="dropdown-item" href="#">Setting</a></li>
+						<li><a class="dropdown-item" href="#">My Wallet</a></li>
+						<li><a class="dropdown-item" href="#">Sign out</a></li>
+					</ul>
+				</li>
+				<!-- Toggle button -->
+				<li class="list-inline-item d-md-inline-block d-lg-none">
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dashboardNav" aria-controls="dashboardNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!--Navbar top END -->
+	
+	<div class="container-fluid px-0">
+		<div class="page-wrapper">
+			<!-- Left sidebar START -->
+			<nav class="navbar navbar-expand-lg navbar-light bg-light px-3">
+				<div class="collapse navbar-collapse" id="dashboardNav">
+					<div class="dashboard-sidebar bg-light">
+						<div class="content mt-3">
+							<!-- Sidebar menu -->
+							<div class="list-group list-group-borderless p-3 p-md-4">
+								<p class="text-body mb-2">Main</p>
+									<a class="list-group-item hover-primary-soft" href="agent-dashboard.html"><i class="fas fa-fw fa-tachometer-alt me-2"></i>Dashboard</a>
+
+								<p class="text-body mt-3 mb-2">Manage Listing</p>
+									<a class="list-group-item hover-primary-soft" href="agent-add-property.html"><i class="bi fa-fw bi-bookmark-plus-fill me-2"></i>Add Property</a>
+									<a class="list-group-item hover-primary-soft" href="agent-property.html"><i class="fas fa-fw fa-home me-2"></i>My Property</a>
+									<a class="list-group-item hover-primary-soft" href="agent-favorite.html"><i class="fab fa-fw fa-gratipay me-2"></i>My Favorites</a>
+									<a class="list-group-item hover-primary-soft" href="agent-review.html"><i class="far fa-fw fa-comment-dots me-2"></i>Review</a>
+
+								<p class="text-body mt-3 mb-2">Agency</p>
+									<a class="list-group-item hover-primary-soft active" href="add-new-agent.html"><i class="fas fa-fw fa-user-plus me-2"></i>Add New Agent</a>
+									<a class="list-group-item hover-primary-soft" href="agency-agent-list.html"><i class="fas fa-fw fa-users me-2"></i>Agent List</a>
+									<a class="list-group-item hover-primary-soft" href="agent-message.html"><i class="fas fa-fw fa-envelope me-2"></i>Message</a>
+
+								<p class="text-body mt-3 mb-2">Manage Account</p>
+									<a class="list-group-item hover-primary-soft" href="agent-profile.html"><i class="fas fa-fw fa-user-alt me-2"></i>My Profile</a>
+									<a class="list-group-item hover-primary-soft" href="agent-package.html"><i class="fas fa-fw fa-boxes me-2"></i>My Packages</a>
+									<a class="list-group-item hover-primary-soft" href="agent-dashboard.html"><i class="fas fa-fw fa-sign-out-alt me-2"></i>Log Out</a>
+
+								<p class="text-body mt-3 mb-1">Agent of:</p>
+									<a class="list-group-item" href="#">
+										<img class=" " src="assets/images/agency/03.svg" alt="Profile picture">
+									</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>		
+			<!-- Left sidebar END -->
+
+			<!-- Main content START -->
+			<div class="main-content">
+				<div class="row">
+					<div class="col-12">
+						<!-- Page title -->
+						<div class="my-5">
+							<h3>Add New Agent</h3>
+							<hr>
+						</div>
+						<!-- Form START -->
+						<form class="file-upload">
+							<div class="row mb-5 gx-5">
+								<!-- Contact detail -->
+								<div class="col-xxl-12 mb-5 mb-xxl-0">
+									<div class="bg-secondary-soft p-4 p-sm-5 rounded">
+										<div class="row g-3">
+											<div class="col-xxl-8">
+												<div class="row g-3">
+													<h4 class="my-0">Agent detail</h4>
+													<!-- First Name -->
+													<div class="col-md-6">
+														<label class="form-label">Agent Name *</label>
+														<input type="text" class="form-control" aria-label="Agent name">
+													</div>
+													<!-- phone number -->
+													<div class="col-md-6">
+														<label class="form-label">Phone number *</label>
+														<input type="text" class="form-control" aria-label="Phone number" >
+													</div>
+													<!-- Email -->
+													<div class="col-md-6">
+														<label for="inputEmail4" class="form-label">Email *</label>
+														<input type="email" class="form-control" id="inputEmail4">
+													</div>
+													<!-- City -->
+													<div class="col-md-6">
+														<label class="form-label">City *</label>
+														<input type="text" class="form-control" aria-label="City">
+													</div>
+													<!-- Job title -->
+													<div class="col-md-6">
+														<label class="form-label">Job Title *</label>
+														<input type="text" class="form-control" aria-label="Phone number">
+													</div>
+													<!-- About agent -->
+													<div class="col-md-12">
+														<label for="exampleFormControlTextarea1" class="form-label">About agent *</label>
+														<textarea class="form-control" id="exampleFormControlTextarea1" rows="4" spellcheck="false"></textarea>
+													</div>
+												</div>
+											</div>	
+
+											<!-- Upload profile -->
+											<div class="col-xxl-4 text-center">
+												<h4 class="mb-4 mt-0">Upload your profile photo</h4>
+												<!-- Upload image -->
+												<div class="square position-relative display-2 mb-3">
+													<i class="fas fa-fw fa-user position-absolute top-50 start-50 translate-middle text-secondary"></i>
+												</div>
+												<!-- Button -->
+												<div>
+													<input type="file" id="customFile" name="file" hidden>
+													<label class="btn btn-success-soft btn-block" for="customFile">Upload</label>
+													<button type="button" class="btn btn-danger-soft">Remove</button>
+													<!-- Content -->
+													<p class="text-muted mt-3 mb-0"><span class="me-1">Note:</span>Minimum size 300px x 300px</p>
+												</div>
+											</div>
+										</div> <!-- Row END -->
+									</div>
+								</div>
+							</div> <!-- Row END -->
+
+							<!-- button -->
+							<div class="gap-3 d-md-flex justify-content-md-end">
+								<button type="button" class="btn btn-primary-soft btn-lg">Add Agent</button>
+							</div>
+						</form> 
+						<!-- Form END -->
+					</div>
+				</div>
+			</div>
+			<!-- Main content END -->
+		</div>
+	</div>
+
+</main>
+<!-- **************** MAIN CONTENT END **************** -->
+
+<!-- Back to top -->
+<div class="back-top"><i class="bi bi-arrow-up-short position-absolute top-50 start-50 translate-middle"></i></div>
+<!-- Back to top -->
+
+<!-- =======================
+JS libraries, plugins and custom scripts -->
+
+<!-- Bootstrap JS -->
+<script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Template Functions -->
+<script src="assets/js/functions.js"></script>
+
+</body>
+</html>
